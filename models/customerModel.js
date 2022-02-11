@@ -13,11 +13,9 @@ module.exports = (sequelize, DataTypes) => {
     govtidentityProof: {
       type: DataTypes.INTEGER,
     },
-    rooms: [
-      {
-        type: DataTypes.OBJECT,
-      },
-    ],
+    rooms: {
+      type: DataTypes.JSON,
+    },
   });
 
   return Customer;
