@@ -39,4 +39,19 @@ db.sequelize
     console.log("yes re-sync done!");
   });
 
+// one to Many relation
+/* we are connecting the review table with parent. 
+since it has to be monitored */
+
+db.customers.belongsTo(db.rooms,{
+  foreignKey:"room_id",
+  as: 'room'})
+
+// child belongs to parent..
+
+db.rooms.hasMany(db.customers,{
+  foreignKey:"room_id",
+  as:"customer"
+})
+
 module.exports = db;

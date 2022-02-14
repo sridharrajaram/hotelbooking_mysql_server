@@ -41,5 +41,11 @@ module.exports = (sequelize, DataTypes) => {
     },
   });
 
+  Room.associate = models => {
+    Room.hasMany(models.Customer, {
+      onDelete:"cascade"
+    });
+  }
+
   return Room;
 };

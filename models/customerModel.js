@@ -15,15 +15,6 @@ module.exports = (sequelize, DataTypes) => {
     govtidentityProof: {
       type: DataTypes.INTEGER,
     },
-    rooms: {
-      type: DataTypes.STRING,
-      get: function () {
-        return JSON.parse(this.getDataValue("rooms"));
-      },
-      set: function (val) {
-        return this.setDataValue("rooms", JSON.stringify(val));
-      },
-    },    
   });
 
   return Customer;

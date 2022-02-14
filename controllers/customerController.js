@@ -2,6 +2,7 @@ const db = require("../models");
 
 //create main Model
 const Customer = db.customers;
+const Room = db.rooms;
 
 //Main Work
 // 1. adding new customer
@@ -11,7 +12,7 @@ const addCustomer = async (req, res) => {
     email: req.body.email,
     phoneNumber: req.body.phoneNumber,
     govtidentityProof: req.body.govtidentityProof,
-    rooms: req.body.rooms
+    room_id: req.body.room_id
   };
 
   const customer = await Customer.create(data);

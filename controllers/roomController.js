@@ -1,6 +1,7 @@
 const db = require("../models");
 
 //create main Model
+const Customer = db.customers;
 const Room = db.rooms;
 
 //Main Work
@@ -15,7 +16,14 @@ const getSingleRoom = async (req, res) => {
 
 //2.get all rooms
 const getAllRooms = async (req, res) => {
-  let allrooms = await Room.findAll({});
+  let allrooms = await Room.findAll({
+    include: [
+      {
+        model: Customer,
+        as: "customer",
+      },
+    ],
+  });
   res.status(200).send(allrooms);
 };
 
