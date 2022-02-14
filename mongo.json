@@ -1,0 +1,65 @@
+[
+{
+        "utilitise" : [
+                "Laundary",
+                "Cardio Cycle",
+                "WIFI",
+                "Play Console"
+        ],
+        "image" : [
+                "https://images.unsplash.com/photo-1512918580421-b2feee3b85a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "roomtype" : "LUXURY_SINGLE_ROOM",
+        "rooms" : 1,
+        "beds" : 1,
+        "price" : 1000,
+        "description" : "Our Luxury Single rooms are fitted with comfortable  bed, white linen and have the following features..."
+},
+{
+        "utilitise" : [
+                "minibar",
+                "unlimited hiking",
+                "drinks",
+                "master BathRoom"
+        ],
+        "image" : [
+                "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "roomtype" : "DELUX_DOUBLE_ROOM",
+        "rooms" : 2,
+        "beds" : 2,
+        "price" : 3000,
+        "description" : "This room has one large double bed or 1 single. This type of room is most often chosen by vacationers. Superior- Superior Standard Room."
+},
+{
+        "utilitise" : [
+                "drinks",
+                "Hot Tub",
+                "Mountain View"
+        ],
+        "image" : [
+                "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "roomtype" : "LUXURY_DOUBLE_ROOM",
+        "rooms" : 2,
+        "beds" : 1,
+        "price" : 1500,
+        "description" : "Elegant retreats offering the utmost comfort. Our Luxury Double Rooms are individually decorated in shades of aqua to reflect the marine environment surrounding"
+},
+{
+        "utilitise" : [
+                "Hot Water",
+                "Gym",
+                "WIFI",
+                "Air Conditioned"
+        ],
+        "image" : [
+                "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "roomtype" : "DELUX_SINGLE_ROOM",
+        "rooms" : 1,
+        "beds" : 1,
+        "price" : 1100,
+        "description" : "Deluxe Single Rooms provide a twin bed, a writing desk, television, complimentary wifi internet access and air conditioning"
+}
+]

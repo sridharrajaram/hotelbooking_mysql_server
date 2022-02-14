@@ -7,16 +7,18 @@ const Room = db.rooms;
 //Main Work
 // 1. adding new customer
 const addCustomer = async (req, res) => {
+
   const data = {
     customerName: req.body.customerName,
     email: req.body.email,
     phoneNumber: req.body.phoneNumber,
     govtidentityProof: req.body.govtidentityProof,
-    room_id: req.body.room_id
+    room_id:req.body.room_id
   };
 
   const customer = await Customer.create(data);
   res.status(200).json("Customer added sucessfully");
+  
 };
 
 //2.get all customers

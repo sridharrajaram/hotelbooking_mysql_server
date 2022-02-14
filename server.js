@@ -7,7 +7,7 @@ const customerRouter = require("./routes/customerRouter.js");
 const roomRouter = require("./routes/roomRouter.js");
 
 var corsOptions = {
-  origin: "https://localhost:8081",
+  origin: "*",
 };
 
 //middleware
